@@ -1,0 +1,131 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.menu{
+    text-align: right;
+    margin-right: 50px;
+}
+.menu ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;     
+}
+.menu li{    
+    padding: 20px 20px;  
+    display: inline-block;  
+}
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.half-width img{
+    width: 100%;
+}
+.half-width h1{
+    font-size: 50px;
+    text-transform: uppercase;
+    margin: 0;
+}
+.name-highlight{
+    color: chocolate;
+}
+.half-width p{
+    color: darkgray;
+}
+.btn{
+    text-transform: capitalize;
+    font-size: 20px;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: white;
+    background-color: brown;
+    border-radius: 5px;
+    margin-top: 50px;
+    background-image: linear-gradient(45deg,lightsalmon, tomato);
+}
+.display-project{
+    padding: 80px 80px 120px 80px;
+    background-color: #F8F9FC;
+    overflow: hidden;
+}
+.display-project h1{
+    text-align: center;
+    padding-bottom: 50px;
+    text-transform: uppercase;
+}
+.header-area{
+    
+    height: 1150px;
+}
+.project-item{
+    width: 27%;
+    float: left;
+    margin: 0 1%;
+    padding: 20px;
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 15px;
+    height: 70%;
+    background-color: white;
+}
+.project-item img{
+    width: 100%;
+}
+.inquery{
+    background-image: url("shapes/Group_33094_1.png");
+    background-position: left;    
+    background-repeat: no-repeat;
+    text-align: center;
+    height: 200px;
+    margin: 100px 200px;
+    border-radius: 20px;
+    
+}
+.text{
+    float: left;
+    width: 50%;
+    
+}
+.text h1{
+    color: white;
+    text-transform: uppercase;
+    font-size: 50px;
+    padding: 30px ;
+    
+}
+
+.btn-chat {
+    float: right;
+    width: 40%;
+    padding-top: 90px;
+    
+}
+
+
+.info{
+    text-align: center;
+}
+.info h1{
+    text-transform: uppercase;
+    font-size: 40px;
+    color: darkgray;
+    margin: 0;
+}
+.info h2{
+    font-size: 30px;
+    margin: 0;
+}
+.info ul{
+    list-style: none;
+}
+.info li{
+    display: inline-block;
+    padding: 10px;
+}
+.info li img{
+    width: 50px;
+    height: 50px;
+}
